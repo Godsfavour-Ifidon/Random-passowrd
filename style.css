@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  /* margin: auto; */
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.done {
+  text-align: center;
+  color: red;
+}
+
+button,
+input {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 16px;
+}
+
+button {
+  cursor: pointer;
+  color: blue;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 8px;
+}
+
+input {
+  font-style: italic;
+}
+
+.copy {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid red;
+}
